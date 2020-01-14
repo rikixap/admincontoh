@@ -42,6 +42,7 @@ import ResetPasword from './pages/fccamp14';
 
 import ToDo from './pages/fccamp17';
 import Calendar from './pages/fccamp18';
+import Kalkulator from './pages/kalkulator';
 library.add(faGhost, fas);
 
 function App() {
@@ -79,7 +80,7 @@ function App() {
       <Route path="/resetpass" component={ResetPasword}/>
       <Route path="/todo" component={ToDo}/>
       <Route path="/date" component={Calendar}/>
-    
+      <Route path="/kalkulator" component={Kalkulator}/>
     </div> 
    </Router>
   );
