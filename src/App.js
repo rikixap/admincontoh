@@ -39,6 +39,7 @@ import Increment from './pages/fccamp11';
 import ClickMe from './pages/fccamp12';
 import CampSite from './pages/fccamp13';
 import ResetPasword from './pages/fccamp14';
+import Scrool from './pages/scroll';
 
 import ToDo from './pages/fccamp17';
 import Calendar from './pages/fccamp18';
@@ -81,6 +82,7 @@ function App() {
       <Route path="/todo" component={ToDo}/>
       <Route path="/date" component={Calendar}/>
       <Route path="/kalkulator" component={Kalkulator}/>
+      <Route path="/scroll" component={Scrool}/>
     </div> 
    </Router>
   );
